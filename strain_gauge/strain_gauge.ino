@@ -1,9 +1,9 @@
 #define amostras 2000
 #define sensor 13
-#define E 3400 //MPa
-#define L 300 //mm
-#define b 94 //mm
-#define h 2 //mm
+#define E 3400 // Módulo de elasticidade do material medido em MPa
+#define L 300 // Comprimento do braço em mm
+#define b 94 // Largura da barra em mm
+#define h 2 // Espessura da barra em mm
 
 float zero = 0, strain = 0, def = 0, delta_def;
 float calib = 0, w, m, p, e, sigma;
